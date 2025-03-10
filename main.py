@@ -12,7 +12,7 @@ sns.set(style='white')
 
 # Load Data
 github_url = 'https://github.com/Anujpatel04/CICD/blob/main/iris.csv'
-dataset = pd.read_csv(github_url,engine="python", sep=",")
+dataset = pd.read_csv(github_url,engine="python",sep="\t")
 # dataset = pd.read_csv(r'D:\VS_CODE_PROJECTS-NARESH-IT\CICD\CICD_1\iris.csv')
 
 # Feature names (Ensure no extra spaces or parentheses)
